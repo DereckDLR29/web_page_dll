@@ -1,0 +1,51 @@
+/* Título */
+h1 {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    text-align: start;
+    color: white;
+    font-size: 2.2rem;
+    margin: 0;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+} 
+/* Fondo */
+body {
+    background-image: url("/Users/brihanbr10/Desktop/DERECK/abril/pagina_us/fondo_pag.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+button {
+    box-shadow: 0 0 5px rgb(255, 102, 0), 
+    0 0 25px rgb(255, 102, 0);
+    position: absolute;
+    right: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+button:hover {
+    box-shadow: 0 0 5px rgb(255, 102, 0), 
+    0 0 25px rgb(255, 102, 0), 0 0 50px rgb(255, 102, 0),
+    0 0 100px rgb(255, 102, 0), 0 0 200px rgb(255, 102, 0);
+}
+
+.button-pet {
+    box-shadow: 0 0 5px rgb(255, 102, 0), 
+    0 0 25px rgb(255, 102, 0);
+    position: absolute;
+    right: 150px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.button-pet:hover:hover {
+    box-shadow: 0 0 5px rgb(255, 102, 0), 
+    0 0 25px rgb(255, 102, 0), 0 0 50px rgb(255, 102, 0),
+    0 0 100px rgb(255, 102, 0), 0 0 200px rgb(255, 102, 0);
+}
+
+
