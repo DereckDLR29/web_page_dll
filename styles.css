@@ -64,6 +64,8 @@ button:hover {
 }
 /* =============================================================================== */
 .card {
+    display: flex;
+    flex-wrap: wrap;
     place-self: center;
   width: 90%;
   margin-bottom: 8px;
@@ -95,8 +97,7 @@ button:hover {
     font-family: "monserrat", sans-serif;
     color: antiquewhite;
 }
-.img-card {
-    
+.card-img {
     width: auto;
     height: auto;
     border-radius: 15px;
